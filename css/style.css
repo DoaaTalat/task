@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/img7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.nav{
+    direction: rtl;
+    background-color: #41658E;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.nav .nav1{
+   color: white;
+   height: 25px;
+   padding:  20px 15px;
+   display: inline-block;
+}
+.nav .nav1:hover{
+   color: #000;
+}
+.nav .nav2{
+   color:#41658E ;
+   background-color: white;
+}
+.firsthead{
+    padding: 10px 15px;
+    margin: 80px;
+    margin-left: 500px;
+    text-align: center;
+}
+.compenyname{
+    color: #fff;
+    border: 2px solid#fff;
+    border-radius: 3px;
+    width: 350px;
+    height: 50px;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section1{
+    background-color: rgba(8, 7, 7, 0.4);
+    height: 300px;
+}
+.service{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    color: #fff;
+    border:1px solid #fff;
+    border-radius: 8px;
+}
+.div1{
+    display: flex;
+}
+.form1 .div1 :hover{
+    background-color: rgb(189, 189, 236);
+}
+.box{
+    width: 200px;
+    height: 350;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: auto;
+    background-color: rgb(247, 242, 242);
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    direction: rtl;
+    
+}
+.fas{
+    padding: 10px;
+    color: #41658E;
+    font-size: 30px;
+}
+.boxhead{
+    font-size: 20px;
+    text-align: center;
+    color: #41658E;
+}
+.boxpara{
+    color: black;
+    padding: 10px;
+}
+.section2{
+    background-color: rgba(235, 230, 230, 0.4);
+    height: 400px;
+}
+.heading{
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    font-size: 50px;
+    color: #fff;
+    border:1px solid #fff;
+    border-radius: 8px;
+    background-color:#41658E;
+}
+.fix{
+    display: flex;
+}
+.imageco{
+    margin: 30px;
+    padding: 20px;
+    margin-left: 115px;
+}
+.comname{
+    margin-left: 115px;
+    color:rgb(33, 33, 34);
+    text-transform: uppercase;
+}
+/* ------------------------------------------------------------------ */
+.final{
+    display: flex; 
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+.sinform{
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 500px;
+    width: 50%;
+}
+.sin{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px 10px;
+    color: silver;
+}
+.input{
+    display: block;
+    width: 50%;
+    background-color: silver;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+.sinform .input:hover{
+    background-color: #41658E;
+}
+.newbtn{
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.sinbutton{
+    width: 150px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    background-color:silver ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.newbtn .sinbutton:hover{
+    background-color: #41658E;
+}
+.title{
+    color: rgb(128, 149, 168);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.Quick{
+    text-align: right;
+}
+.item{
+    color: white;
+    margin-left: 20px;
+}
+.footer .Quick .links{
+    margin-left: 25px;
+}
+.Quick .li{
+    margin-bottom: 20px;
+}
+.Quick .item{
+    color: rgb(217, 232, 243);
+    font-size: 15px;
+}
+.Quick .item:hover{
+    color: rgb(121, 118, 118);
+    text-decoration: underline;
+}
+.linkcompeny .ln{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #fff;
+}
+.copyright{
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+}
